@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/yosefPham/diary-web/static/css/main.7ad70af2.css",
+    "main.js": "/yosefPham/diary-web/static/js/main.8fece01c.js",
+    "static/js/787.6ec5950b.chunk.js": "/yosefPham/diary-web/static/js/787.6ec5950b.chunk.js",
+    "static/media/YosefPham.png": "/yosefPham/diary-web/static/media/YosefPham.3764925064beb63f0b99.png",
+    "index.html": "/yosefPham/diary-web/index.html",
+    "main.7ad70af2.css.map": "/yosefPham/diary-web/static/css/main.7ad70af2.css.map",
+    "main.8fece01c.js.map": "/yosefPham/diary-web/static/js/main.8fece01c.js.map",
+    "787.6ec5950b.chunk.js.map": "/yosefPham/diary-web/static/js/787.6ec5950b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ad70af2.css",
+    "static/js/main.8fece01c.js"
+  ]
+}
