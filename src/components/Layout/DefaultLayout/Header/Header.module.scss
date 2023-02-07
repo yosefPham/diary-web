@@ -1,0 +1,31 @@
+.wrapper {
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #dfd9d9;
+}
+.logo {
+    img {
+        border-radius: 50%;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
