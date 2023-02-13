@@ -5,6 +5,7 @@ import { faClock } from '@fortawesome/free-solid-svg-icons';
 import classNames from 'classnames/bind';
 
 import { FooterLayout, BlogLayout } from '~/components/Layout';
+
 import styles from './Blog.module.scss';
 const cx = classNames.bind(styles);
 
@@ -34,18 +35,20 @@ function Blog() {
         console.log(event);
     };
     useEffect(() => {
-        axios
-            .get(`http://localhost:3000/data-blog`)
-            .then((res) => {
+        try {
+            axios.get(`http://localhost:3000/data-blog`).then((res) => {
                 setblogData(res.data);
-            })
-            .catch((error) => console.log(error));
+            });
+        } catch (error) {
+            console.log(error);
+        }
     }, []);
     return (
         <aside className={cx('wrapper')}>
             <div className={cx('body')}>
                 <div className={cx('posts')}>
-                    {updateData !== undefined ? (
+                    {console.log(updateData)}
+                    {updateData !== [] ? (
                         <div
                             key={updateData.id}
                             className={cx('main-posts')}
