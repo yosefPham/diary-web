@@ -1,0 +1,33 @@
+.activities {
+    position: relative;
+    height: 595px;
+    width: auto;
+    color: #fff;
+    font-size: 1.4rem;
+    img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 200px;
+    }
+}
+.content {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.button {
+    &::before {
+        font-size: 2rem;
+    }
+}
+.slick-next {
+    font-size: 40px;
+}
+.slick-arrow {
+    font-size: 40px;
+    color: #fff;
+}

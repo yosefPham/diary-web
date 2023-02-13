@@ -1,24 +1,18 @@
 import classNames from 'classnames/bind';
+import { AccordionButton } from 'react-bootstrap';
 
 import styles from './CourcesLayout.module.scss';
 const cx = classNames.bind(styles);
 
-function CourcesLayout() {
+function CourcesLayout({ data }) {
     return (
         <aside className={cx('wrapper')}>
             <div className={cx('image')}>
-                <img src="https://resources.iostream.vn/content/article/html-phan-4-the-lien-ket-trong-html/thumbnail-hd/blob-1598602875370@1280x720.jpg" />
+                <img src={data.image} alt="Đây là hình ảnh khoá học" />
             </div>
             <div className={cx('titles')}>
-                <h3 className={cx('name-titles')}>Kiến thức nhập môn HTML</h3>
-                <p className={cx('description')}>
-                    Kết nối 2 đầu Advertiser và Publisher thông qua các mạng lưới và nền tảng quảng cáo (ad-network,
-                    agency, etc) Kết nối 2 đầu Advertiser và Publisher thông qua các mạng lưới và nền tảng quảng cáo
-                    (ad-network, agency, etc) Kết nối 2 đầu Advertiser và Publisher thông qua các mạng lưới và nền tảng
-                    quảng cáo (ad-network, agency, etc) quảng cáo (ad-network, agency, etc) quảng cáo (ad-network,
-                    agency, etc) quảng cáo (ad-network, agency, etc) quảng cáo (ad-network, agency, etc) quảng cáo
-                    (ad-network, agency, etc) quảng cáo (ad-network, agency, etc)
-                </p>
+                <h3 className={cx('name-titles')}>{data.title}</h3>
+                <p className={cx('description')}>{data.description}</p>
             </div>
         </aside>
     );

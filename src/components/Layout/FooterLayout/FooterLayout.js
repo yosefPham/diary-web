@@ -36,19 +36,19 @@ function FooterLayout() {
                 <div className={cx('contact')}>
                     <div className={cx('social-network')}>
                         <FontAwesomeIcon icon={faFacebook} className={cx('icon')} />
-                        <a target="_blank" href="https://www.facebook.com/quochuypiano/">
+                        <a rel="noreferrer" target="_blank" href="https://www.facebook.com/quochuypiano/">
                             Phạm Quốc Huy
                         </a>
                     </div>
                     <div className={cx('social-network')}>
                         <FontAwesomeIcon icon={faTiktok} className={cx('icon')} />
-                        <a target="_blank" href="https://www.tiktok.com/@yosefpham">
+                        <a rel="noreferrer" target="_blank" href="https://www.tiktok.com/@yosefpham">
                             Yosef
                         </a>
                     </div>
                     <div className={cx('social-network')}>
                         <FontAwesomeIcon icon={faInstagram} className={cx('icon')} />
-                        <a target="_blank" href="https://www.instagram.com/_p.quoc.huy/">
+                        <a rel="noreferrer" target="_blank" href="https://www.instagram.com/_p.quoc.huy/">
                             _p.quoc.huy
                         </a>
                     </div>

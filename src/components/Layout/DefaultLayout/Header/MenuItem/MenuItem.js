@@ -6,9 +6,8 @@ import styles from './MenuItem.module.scss';
 const cx = classNames.bind(styles);
 
 function MenuItem({ title, to }) {
-    const handleActive = () => {};
     return (
-        <NavLink onClick={handleActive} className={(nav) => cx('navbar-content', { active: nav.isActive })} to={to}>
+        <NavLink className={(nav) => cx('navbar-content', { active: nav.isActive })} to={to}>
             <span>{title}</span>
         </NavLink>
     );

@@ -16,11 +16,11 @@ function Header() {
                 <img width="90px" height="90px" src={image.logo} alt="" />
             </div>
             <div className={cx('navbar')}>
-                <MenuItem title="HOME" to={config.routes.home} />
-                <MenuItem title="FOR ME" to={config.routes.forme} />
-                <MenuItem title="PROJECTS" to={config.routes.projects} />
-                <MenuItem title="BLOG" to={config.routes.blog} />
-                <MenuItem title="CONTACT" to={config.routes.contact} />
+                <MenuItem title="TRANG CHỦ" to={config.routes.home} />
+                <MenuItem title="TÂM SỰ NGÀNH" to={config.routes.blog} />
+                <MenuItem title="GIỚI THIỆU" to={config.routes.forme} />
+                <MenuItem title="DỰ ÁN CÁ NHÂN" to={config.routes.projects} />
+                <MenuItem title="LIÊN HỆ" to={config.routes.contact} />
             </div>
             <div className={cx('search')}>
                 <FontAwesomeIcon className={cx('search-icon')} icon={faSearch}></FontAwesomeIcon>

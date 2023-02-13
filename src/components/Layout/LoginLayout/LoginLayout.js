@@ -14,19 +14,19 @@ function LoginLayout() {
                     <h2 className={cx('form-title')}>Sign up</h2>
                     <form method="POST" className={cx('register-form')}>
                         <div className={cx('form-group')}>
-                            <label for="name">
+                            <label htmlFor="name">
                                 <FontAwesomeIcon className={cx('icon')} icon={faUser} />
                                 <input type="text" name="name" id="name" placeholder="Your Name"></input>
                             </label>
                         </div>
                         <div className={cx('form-group')}>
-                            <label for="email">
+                            <label htmlFor="email">
                                 <FontAwesomeIcon className={cx('icon')} icon={faEnvelope} />
                                 <input type="text" name="email" id="email" placeholder="Your email"></input>
                             </label>
                         </div>
                         <div className={cx('form-group')}>
-                            <label for="pass">
+                            <label htmlFor="pass">
                                 <FontAwesomeIcon className={cx('icon')} icon={faLock} />
                                 <input type="password" name="pass" id="pass" placeholder="Your password"></input>
                             </label>
@@ -47,7 +47,10 @@ function LoginLayout() {
                 </div>
                 <div className={cx('signup-image')}>
                     <div>
-                        <img src="https://colorlib.com/etc/regform/colorlib-regform-7/images/signup-image.jpg" />
+                        <img
+                            src="https://colorlib.com/etc/regform/colorlib-regform-7/images/signup-image.jpg"
+                            alt=" Sign Up"
+                        />
                     </div>
                 </div>
             </div>
